@@ -1,0 +1,26 @@
+ALGOROTHM recherche
+var lg,nbre_mot,nbre_voyelle : integer:=0;
+var phrase : STRING 
+begin
+do (
+
+    //nombre de caractère
+    lg = lg+1
+	
+	
+//nombre de voyelles
+
+        if (phrase (lg)  == "a" or phrase (lg)  == "e" or phrase (lg) == "i" or phrase (lg)  == "o" or phrase (lg)  == "u" or phrase (lg)  == "y" or
+    phrase (lg)  == "A" or phrase (lg)  == "E" or phrase (lg)  == "I" or phrase (lg)  == "O" or phrase (lg)  == "U" or phrase (lg)  == "Y") then
+    nbre_voyelle = nbre_voyelle+1
+    END_IF
+
+//nombre de mots
+
+    if (phrase (lg) = " " or phrase (lg) = ".") then
+    nbre_mot = nbre_mot +1 
+    END_IF
+)
+while phrase (lg) <> "."
+
+end
